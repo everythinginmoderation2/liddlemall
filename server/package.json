@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"\"",
+    "dev": "nodemon server.js"
+  },
+  "author": "PS",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.30.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun.js": "^7.0.2",
+    "mongoose": "^6.2.9",
+    "multer": "*",
+    "nodemon": "^2.0.16",
+    "streamifier": "^0.1.1"
+  }
+}
